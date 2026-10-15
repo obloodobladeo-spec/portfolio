@@ -1,0 +1,374 @@
+<!doctype html>
+<html lang="ko">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width,initial-scale=1" />
+    <meta name="color-scheme" content="light" />
+    <meta name="theme-color" content="#f8f8f6" />
+    <meta
+      name="description"
+      content="김정권의 로봇 제어·임베디드 소프트웨어 개발 포트폴리오. Arduino 제어, 센서·배선, 스마트 주차장 통합 테스트 경험을 소개합니다."
+    />
+    <title>포트폴리오 · 김정권</title>
+    <link rel="icon" href="./assets/favicon.svg" type="image/svg+xml" />
+    <link rel="stylesheet" href="./assets/site.css" />
+    <script src="./assets/site.js" defer></script>
+  </head>
+  <body>
+    <a class="skip" href="#main">본문으로 이동</a>
+    <aside class="sidebar" id="sidebar" aria-label="사이트 메뉴">
+      <a class="brand" href="./index.html"
+        ><span class="brand-mark">JK</span
+        ><span>김정권의 포트폴리오<small>ROBOTICS & EMBEDDED</small></span></a
+      >
+      <div class="nav-label">WORKSPACE</div>
+      <nav aria-label="페이지 목록">
+        <a class="nav-link active" href="./index.html" aria-current="page"
+          ><span class="nav-icon" aria-hidden="true">▦</span>포트폴리오</a
+        ><a class="nav-link" href="./resume/"
+          ><span class="nav-icon" aria-hidden="true">▤</span>이력서</a
+        ><a class="nav-link" href="./about/"
+          ><span class="nav-icon" aria-hidden="true">◉</span>자기소개서</a
+        >
+        <div class="nav-label">PROJECTS</div>
+        <a class="nav-link" href="./projects/"
+          ><span class="nav-icon" aria-hidden="true">▧</span>프로젝트
+          모아보기</a
+        ><a class="nav-link nav-child" href="./projects/smart-parking.html"
+          ><span class="nav-icon" aria-hidden="true">↳</span>스마트 주차장</a
+        >
+        <div class="nav-label">LINKS</div>
+        <a class="nav-link" href="https://github.com/obloodobladeo-spec"
+          ><span class="nav-icon" aria-hidden="true">↗</span>GitHub</a
+        ><a class="nav-link" href="https://kjeongk.tistory.com/"
+          ><span class="nav-icon" aria-hidden="true">↗</span>Tistory</a
+        >
+      </nav>
+      <div class="sidebar-bottom">
+        <span><i class="status-dot"></i>배우고, 만들고, 기록합니다.</span>로봇의
+        동작을 이해하는 개발자<br />Kim Jeong Kwon
+      </div>
+    </aside>
+    <div class="site-shell">
+      <header class="topbar">
+        <div class="breadcrumb">
+          <button
+            class="menu-toggle"
+            type="button"
+            aria-label="메뉴 열기"
+            aria-controls="sidebar"
+            aria-expanded="false"
+            data-menu-toggle
+          >
+            ☰</button
+          ><a href="./index.html">포트폴리오</a><span aria-hidden="true">/</span
+          ><b>김정권</b>
+        </div>
+        <div class="top-actions">
+          <a class="desktop-only" href="https://kjeongk.tistory.com/"
+            >개발 기록 ↗</a
+          ><a href="./resume/">이력서 보기 ↗</a>
+        </div>
+      </header>
+      <div class="cover" aria-hidden="true">
+        <div class="cover-inner">
+          <div>
+            <div class="cover-label">JEONG KWON KIM · PORTFOLIO</div>
+            <div class="cover-words">From signal<br />to motion.</div>
+          </div>
+          <div class="cover-flow">
+            <span>INPUT</span><i>→</i><span>STATE</span><i>→</i
+            ><span>OUTPUT</span>
+          </div>
+        </div>
+      </div>
+      <main id="main" class="page">
+        <div class="page-icon" aria-hidden="true">👨‍💻</div>
+        <div class="page-title">
+          <div class="eyebrow">PORTFOLIO</div>
+          <h1>김정권의 포트폴리오</h1>
+        </div>
+        <p class="lead">
+          안녕하세요. 센서의 입력부터 장치의 동작까지,<br />소프트웨어와
+          하드웨어를 연결하며 배우는 <strong>김정권</strong>입니다.
+        </p>
+        <div class="hero-links">
+          <a class="button solid" href="resume/"
+            >이력서 보기 <span aria-hidden="true">↗</span></a
+          ><a class="external" href="https://github.com/obloodobladeo-spec"
+            >GitHub ↗</a
+          ><a class="external" href="https://kjeongk.tistory.com/"
+            >Tistory ↗</a
+          >
+        </div>
+        <div class="callout">
+          <span class="callout-icon" aria-hidden="true">📌</span>
+          <div>
+            <strong>직접 연결하고, 실행하고, 동작을 확인합니다.</strong>
+            <p>
+              스마트 주차장 프로젝트에서 Arduino 제어, 센서·배선, 통합 테스트를
+              담당했습니다.<br />실행 결과와 문제 해결 과정을 개발 기록으로
+              남기고 있습니다.
+            </p>
+          </div>
+        </div>
+        <section class="section" id="about">
+          <div class="section-heading">
+            <h2>
+              <span class="section-symbol" aria-hidden="true">🙋</span>About me
+            </h2>
+            <a href="about/">자기소개서 읽기 ↗</a>
+          </div>
+          <div class="two-column">
+            <ul class="about-list">
+              <li>
+                <strong>만드는 일에서 시작한 관심</strong><br />전자제품 수리와
+                3D 작업에 대한 관심을 로봇 개발로 이어가고 있습니다.
+              </li>
+              <li>
+                <strong>동작의 흐름을 이해하는 학습</strong><br />입력, 상태
+                판단, 출력을 나누어 실제 장치의 동작을 확인합니다.
+              </li>
+              <li>
+                <strong>경험을 설명할 수 있는 기록</strong><br />배운 내용과
+                프로젝트의 시행착오를 티스토리에 정리합니다.
+              </li>
+            </ul>
+            <dl class="profile-list">
+              <dt>이름</dt>
+              <dd>김정권 <span class="sub">Kim Jeong Kwon</span></dd>
+              <dt>관심 분야</dt>
+              <dd>로봇 제어 · 임베디드 소프트웨어</dd>
+              <dt>전공</dt>
+              <dd>
+                생명화학공학 <span class="sub">조선대학교 공과대학 · 학사</span>
+              </dd>
+              <dt>학습 과정</dt>
+              <dd>AI 자율주행 로봇 개발자 과정</dd>
+            </dl>
+          </div>
+        </section>
+        <section class="section" id="education">
+          <div class="section-heading">
+            <h2>
+              <span class="section-symbol" aria-hidden="true">🎓</span>Education
+              & Courses
+            </h2>
+          </div>
+          <div class="two-column equal">
+            <div>
+              <h3 class="subhead">Education</h3>
+              <div class="timeline">
+                <div class="timeline-item">
+                  <h3>조선대학교 · 생명화학공학과</h3>
+                  <span class="date">2021.03 – 2026.08</span>
+                  <p>공과대학 · 학사 졸업</p>
+                </div>
+                <div class="timeline-item">
+                  <h3>능주고등학교</h3>
+                  <span class="date">2019.02 졸업</span>
+                </div>
+              </div>
+            </div>
+            <div>
+              <h3 class="subhead">Courses</h3>
+              <div class="learning">
+                <h3>미래융합교육원</h3>
+                <p>
+                  AI 자율주행 로봇 개발자 과정<br />프로그래밍에서 센서, 제어와
+                  로봇 소프트웨어로
+                </p>
+                <div class="tag-list">
+                  <span class="tag blue">C++ · Python</span
+                  ><span class="tag green">Arduino</span
+                  ><span class="tag purple">ROS2 학습</span>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+        <section class="section" id="skills">
+          <div class="section-heading">
+            <h2>
+              <span class="section-symbol" aria-hidden="true">🛠️</span>Skills &
+              Tools
+            </h2>
+          </div>
+          <div class="table-wrap">
+            <table class="skills-table">
+              <thead>
+                <tr>
+                  <th scope="col">분야</th>
+                  <th scope="col">기술</th>
+                  <th scope="col">경험과 활용 범위</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <td>Embedded</td>
+                  <td>
+                    <div class="tag-list">
+                      <span class="tag green">Arduino UNO</span
+                      ><span class="tag blue">C/C++</span>
+                    </div>
+                  </td>
+                  <td>
+                    스마트 주차장 제어 로직, 센서 입력과 LED·Servo 출력 연결
+                  </td>
+                </tr>
+                <tr>
+                  <td>Hardware</td>
+                  <td>
+                    <div class="tag-list">
+                      <span class="tag orange">초음파 센서</span
+                      ><span class="tag orange">Servo</span
+                      ><span class="tag green">디지털 입력</span>
+                    </div>
+                  </td>
+                  <td>
+                    센서·배선 구성, 버튼을 이용한 점유 상태 모사, 장치 동작 확인
+                  </td>
+                </tr>
+                <tr>
+                  <td>Validation</td>
+                  <td>
+                    <div class="tag-list">
+                      <span class="tag purple">통합 테스트</span
+                      ><span class="tag pink">상태 전이</span>
+                    </div>
+                  </td>
+                  <td>정상 주차·오주차·출차 흐름을 구분하여 동작 점검</td>
+                </tr>
+                <tr>
+                  <td>Programming</td>
+                  <td>
+                    <div class="tag-list">
+                      <span class="tag blue">Python</span
+                      ><span class="tag blue">C++</span>
+                    </div>
+                  </td>
+                  <td>
+                    기본 문법, 객체지향과 프로그램 실행 흐름 학습<small
+                      >로봇 소프트웨어 개발을 위한 기초 역량을 보완하고
+                      있습니다.</small
+                    >
+                  </td>
+                </tr>
+                <tr>
+                  <td>Robotics</td>
+                  <td>
+                    <div class="tag-list">
+                      <span class="tag green">ROS2</span
+                      ><span class="tag purple">Ubuntu</span>
+                    </div>
+                  </td>
+                  <td>
+                    노드 통신과 로봇 개발 환경 학습<small
+                      >자율주행·센서 데이터 처리로 학습 범위를 넓히고
+                      있습니다.</small
+                    >
+                  </td>
+                </tr>
+                <tr>
+                  <td>Documentation</td>
+                  <td>
+                    <div class="tag-list">
+                      <span class="tag orange">GitHub</span
+                      ><span class="tag">Tistory</span>
+                    </div>
+                  </td>
+                  <td>
+                    학습 내용, 시스템 구성과 문제 해결 과정을 정리하고 공유
+                  </td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+        </section>
+        <section class="section" id="projects">
+          <div class="section-heading">
+            <h2>
+              <span class="section-symbol" aria-hidden="true">🚀</span>Projects
+            </h2>
+            <a href="projects/">프로젝트 폴더 보기 ↗</a>
+          </div>
+          <div class="project-grid">
+            <a class="project-card" href="./projects/smart-parking.html"
+              ><div class="project-cover">
+                <img
+                  src="./assets/parking-overview.svg"
+                  alt="3개 주차면과 Arduino 제어부를 표현한 스마트 주차장 구성 그림"
+                  width="960"
+                  height="550"
+                />
+              </div>
+              <div class="project-card-body">
+                <h3>
+                  스마트 주차장 <span class="arrow" aria-hidden="true">↗</span>
+                </h3>
+                <p>
+                  센서 입력과 주차 상태를 연결해<br />안내 LED와 입·출구
+                  차단기를 제어한 팀 프로젝트
+                </p>
+                <div class="tag-list">
+                  <span class="tag green">Arduino</span
+                  ><span class="tag blue">C/C++</span
+                  ><span class="tag orange">센서·Servo</span
+                  ><span class="tag purple">통합 테스트</span>
+                </div>
+                <div class="project-meta">
+                  <span>2026.08</span
+                  ><span>제어 · 센서·배선 · 통합 테스트</span>
+                </div>
+              </div></a
+            >
+          </div>
+          <p class="note">
+            카드를 열면 시스템 구조, 직접 담당한 기능, 문제 해결 과정과 회고를
+            확인할 수 있습니다.
+          </p>
+        </section>
+        <section class="section" id="log">
+          <div class="section-heading">
+            <h2>
+              <span class="section-symbol" aria-hidden="true">✏️</span>Learning
+              log
+            </h2>
+            <a href="https://kjeongk.tistory.com/">티스토리 전체 글 ↗</a>
+          </div>
+          <div class="notes-list">
+            <a class="note-row" href="https://kjeongk.tistory.com/17"
+              ><time datetime="2026-08-19">2026.08.19</time
+              ><strong>스마트 주차장 · 서버 연동과 숫자 프로토콜</strong
+              ><span class="arrow" aria-hidden="true">↗</span></a
+            ><a class="note-row" href="https://kjeongk.tistory.com/16"
+              ><time datetime="2026-08-18">2026.08.18</time
+              ><strong>스마트 주차장 · 입·출차 제어와 오주차 처리</strong
+              ><span class="arrow" aria-hidden="true">↗</span></a
+            ><a class="note-row" href="https://kjeongk.tistory.com/15"
+              ><time datetime="2026-08-13">2026.08.13</time
+              ><strong>스마트 주차장 · 주제 선정과 시스템 구상</strong
+              ><span class="arrow" aria-hidden="true">↗</span></a
+            >
+          </div>
+        </section>
+        <section class="section" id="contact">
+          <div class="contact-block">
+            <div>
+              <h2>구현의 과정까지 설명하겠습니다.</h2>
+              <p>
+                프로젝트와 학습의 더 자세한 기록은 GitHub와 티스토리에서 확인할
+                수 있습니다.
+              </p>
+            </div>
+            <a class="button" href="resume/">이력서 보기 ↗</a>
+          </div>
+        </section>
+        <footer class="footer">
+          <span>© 2026 Kim Jeong Kwon · 배움과 구현의 기록</span
+          ><a href="./index.html">포트폴리오 홈 ↑</a>
+        </footer>
+      </main>
+    </div>
+  </body>
+</html>

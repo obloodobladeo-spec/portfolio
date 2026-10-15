@@ -1,0 +1,213 @@
+<!doctype html>
+<html lang="ko">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width,initial-scale=1" />
+    <meta name="color-scheme" content="light" />
+    <meta name="theme-color" content="#f8f8f6" />
+    <meta
+      name="description"
+      content="김정권의 로봇 제어·임베디드 소프트웨어 개발 포트폴리오. Arduino 제어, 센서·배선, 스마트 주차장 통합 테스트 경험을 소개합니다."
+    />
+    <title>자기소개서 · 김정권</title>
+    <link rel="icon" href="../assets/favicon.svg" type="image/svg+xml" />
+    <link rel="stylesheet" href="../assets/site.css" />
+    <script src="../assets/site.js" defer></script>
+  </head>
+  <body>
+    <a class="skip" href="#main">본문으로 이동</a>
+    <aside class="sidebar" id="sidebar" aria-label="사이트 메뉴">
+      <a class="brand" href="../index.html"
+        ><span class="brand-mark">JK</span
+        ><span>김정권의 포트폴리오<small>ROBOTICS & EMBEDDED</small></span></a
+      >
+      <div class="nav-label">WORKSPACE</div>
+      <nav aria-label="페이지 목록">
+        <a class="nav-link" href="../index.html"
+          ><span class="nav-icon" aria-hidden="true">▦</span>포트폴리오</a
+        ><a class="nav-link" href="../resume/"
+          ><span class="nav-icon" aria-hidden="true">▤</span>이력서</a
+        ><a class="nav-link active" href="../about/" aria-current="page"
+          ><span class="nav-icon" aria-hidden="true">◉</span>자기소개서</a
+        >
+        <div class="nav-label">PROJECTS</div>
+        <a class="nav-link" href="../projects/"
+          ><span class="nav-icon" aria-hidden="true">▧</span>프로젝트
+          모아보기</a
+        ><a class="nav-link nav-child" href="../projects/smart-parking.html"
+          ><span class="nav-icon" aria-hidden="true">↳</span>스마트 주차장</a
+        >
+        <div class="nav-label">LINKS</div>
+        <a class="nav-link" href="https://github.com/obloodobladeo-spec"
+          ><span class="nav-icon" aria-hidden="true">↗</span>GitHub</a
+        ><a class="nav-link" href="https://kjeongk.tistory.com/"
+          ><span class="nav-icon" aria-hidden="true">↗</span>Tistory</a
+        >
+      </nav>
+      <div class="sidebar-bottom">
+        <span><i class="status-dot"></i>배우고, 만들고, 기록합니다.</span>로봇의
+        동작을 이해하는 개발자<br />Kim Jeong Kwon
+      </div>
+    </aside>
+    <div class="site-shell">
+      <header class="topbar">
+        <div class="breadcrumb">
+          <button
+            class="menu-toggle"
+            type="button"
+            aria-label="메뉴 열기"
+            aria-controls="sidebar"
+            aria-expanded="false"
+            data-menu-toggle
+          >
+            ☰</button
+          ><a href="../index.html">포트폴리오</a
+          ><span aria-hidden="true">/</span><b>자기소개서</b>
+        </div>
+        <div class="top-actions">
+          <a class="desktop-only" href="https://kjeongk.tistory.com/"
+            >개발 기록 ↗</a
+          ><a href="../resume/">이력서 보기 ↗</a>
+        </div>
+      </header>
+      <main id="main" class="page no-cover">
+        <div class="page-title">
+          <div class="eyebrow">ABOUT ME</div>
+          <h1>자기소개서</h1>
+        </div>
+        <p class="lead">김정권 · 로봇 제어 및 임베디드 소프트웨어 개발</p>
+        <div class="hero-links">
+          <a class="button" href="../resume/">이력서 보기 ↗</a
+          ><button class="button" data-print type="button">
+            인쇄 / PDF 저장 ↗
+          </button>
+        </div>
+        <section class="essay-section">
+          <h2>1. 성장과정</h2>
+          <p>
+            전자제품을 고치고 소프트웨어 설정을 바꾸며 동작 원리를 알아보는
+            관심이 로봇 개발이라는 진로로 이어졌습니다. 닌텐도와 안드로이드
+            기기의 설정이나 한글 패치 적용 방법을 찾아보고, 3D 프로그램으로
+            원하는 결과물을 만드는 작업을 즐겼습니다. 정해진 기능을 사용하는
+            데서 나아가, 어떤 설정과 구조가 결과를 바꾸는지 직접 확인하는 과정에
+            흥미를 느꼈습니다.
+          </p>
+          <p>
+            화학공학을 전공했지만 진로를 고민하면서 이러한 관심을 전문성으로
+            발전시킬 방법을 찾았습니다. 대학원에 연락하며 진학 방향을 알아보던
+            중 로봇 개발에 ROS가 활용된다는 사실을 알게 되었습니다. 센서로 주변
+            환경을 읽고 소프트웨어로 움직임을 결정하는 로봇은, 제가 좋아하던
+            컴퓨터 작업과 전자장치에 대한 관심을 함께 발전시킬 수 있는
+            분야였습니다. AI 교육에 참여한 지인의 추천을 계기로 부트캠프를
+            알아봤고, 미래융합교육원의 AI 자율주행 로봇 개발자 과정에
+            참여했습니다.
+          </p>
+          <p>
+            교육 중에는 스마트 주차장 프로젝트의 Arduino 제어와 센서·배선, 통합
+            테스트를 맡았습니다. 화면 속 코드가 실제 센서 입력과 차단기
+            움직임으로 이어지는 과정을 경험하며, 관심을 구현 경험으로 바꿀 수
+            있었습니다. 장치를 연결하는 일과 프로그램을 작성하는 일을 함께
+            살펴야 전체 동작을 이해할 수 있다는 점도 배웠습니다. 이러한 경험을
+            바탕으로 하드웨어와 소프트웨어 사이의 동작 흐름을 이해하는 개발자로
+            성장하고 있습니다.
+          </p>
+        </section>
+        <section class="essay-section">
+          <h2>2. 프로젝트 문제 해결 경험</h2>
+          <p>
+            스마트 주차장 프로젝트에서는 준비된 장비의 제약 속에서 제어 로직을
+            검증하는 경험을 했습니다. 프로젝트의 목표는 3개 주차면을 가진
+            모형에서 차량 접근을 감지하고, 배정된 주차면으로 안내한 뒤 입·출구
+            차단기를 제어하는 것이었습니다. 저는 Arduino 제어와 센서·배선, 통합
+            테스트를 담당했습니다. 개별 장치가 움직이는지 확인하는 것뿐 아니라,
+            차량의 이동에 따라 입력과 출력이 올바른 순서로 연결되는지 점검해야
+            했습니다.
+          </p>
+          <p>
+            주차면의 IR 센서가 준비되지 않아 실제 차량 점유 상태를 바로 읽기
+            어려웠습니다. 팀은 버튼으로 점유 상태를 대신 입력하는 구성을
+            사용했고, 저는 이 입력을 바탕으로 제어 흐름을 시험했습니다. 배정된
+            주차면에 들어간 경우와 다른 면에 잘못 주차한 경우를 나누고, 차량이
+            빠져나왔을 때의 상태 변화도 확인했습니다. 예를 들어 P2를 배정받은
+            차량이 P3에 들어간 상황에서는 단순한 점유 감지와 정상 주차 판정을
+            구분해야 했습니다. 버튼을 누르고 떼는 조작으로 이러한 조건을
+            재현하면서 센서가 모두 갖춰지기 전에도 로직을 점검할 수 있었습니다.
+          </p>
+          <p>
+            이 과정에서 배선과 입력 상태를 확인하는 단계, 주차 상태를 판단하는
+            단계, LED와 차단기를 제어하는 단계를 나누어 살펴보는 방법을
+            배웠습니다. 서버 기능과 제어 장치의 역할이 연결되므로, 제가 맡은
+            부분의 동작만으로 전체 기능이 완성되었다고 판단해서도 안 된다는 점을
+            이해했습니다. 한 번의 시연보다 정상 상황과 예외 상황을 구분한 검증이
+            중요하다는 경험은 앞으로 로봇의 센서 입력과 동작 제어를 개발할 때도
+            활용할 수 있는 기반이 되었습니다.
+          </p>
+        </section>
+        <section class="essay-section">
+          <h2>3. 강점과 학습 태도</h2>
+          <p>
+            저의 강점은 이해되지 않는 부분을 동작 과정과 연결해 확인하고, 배운
+            내용을 기록으로 정리하는 태도입니다. 비전공자로 개발을 배우면서
+            문법을 아는 것과 실제 프로그램의 흐름을 이해하는 것은 다르다는 점을
+            느꼈습니다. Python을 학습하고 프로그램을 작성할 때에도 예상과 다른
+            결과가 나오면 오류 메시지, 변수의 값, 실행 순서를 살펴보며 어느
+            단계에서 차이가 생기는지 확인하려고 했습니다.
+          </p>
+          <p>
+            스마트 주차장에서도 차량이 감지된 상태와 주차가 완료된 상태는
+            구분해야 했습니다. 같은 입력이 들어오더라도 현재 배정된 주차면과
+            차량의 이동 단계에 따라 필요한 동작이 달라졌기 때문입니다. 저는
+            제어와 통합 테스트를 맡으며 개별 조건문을 보는 데서 나아가 입력,
+            상태 판단, 출력의 관계를 이해하는 연습을 했습니다. 이를 통해 오류가
+            나타난 현상과 그 원인을 구분하고, 관련된 부분부터 좁혀 살펴보는
+            접근의 필요성을 배웠습니다.
+          </p>
+          <p>
+            현재는 티스토리에 교육과정의 학습 내용과 프로젝트 개발 과정을
+            정리하고 있습니다. 학습 내용을 제 말로 설명하는 과정에서 정확히
+            이해한 부분과 다시 확인해야 할 부분을 찾을 수 있습니다. 앞으로는
+            실행 환경과 재현 조건, 시도한 방법과 결과를 함께 남겨 기록의
+            활용도를 높이겠습니다. 혼자 분석해도 해결되지 않는 문제는 확인한
+            내용을 정리해 질문하고, 답을 얻은 뒤 직접 다시 실행하겠습니다.
+            원인을 이해하려는 태도에 기록과 질문을 더해, 팀원이 함께 검토할 수
+            있는 근거를 남기는 개발자가 되겠습니다.
+          </p>
+        </section>
+        <section class="essay-section">
+          <h2>4. 지원동기와 입사 후 계획</h2>
+          <p>
+            센서와 제어 장치를 연결하고 실제 동작을 확인하는 경험을 바탕으로
+            로봇 제어·임베디드 소프트웨어 개발 직무를 선택했습니다. 스마트
+            주차장에서 차량 감지, 주차면 안내, 차단기 제어를 연결하며
+            소프트웨어가 현장의 상태를 해석하고 장치를 움직이게 하는 과정에
+            흥미를 느꼈습니다. 특히 실제 장치에서는 배선, 입력 신호, 제어 조건을
+            함께 살펴야 한다는 점이 제 적성과 맞았습니다. 이러한 경험을 로봇의
+            동작을 구현하고 검증하는 업무로 발전시키고 싶습니다.
+          </p>
+          <p>
+            입사 초기에는 제품의 하드웨어 구성과 소프트웨어 실행 흐름, 개발
+            환경과 테스트 절차를 익히겠습니다. 기존 코드를 읽으며 센서 입력이
+            어떤 처리와 통신을 거쳐 동작으로 이어지는지 파악하고, 담당 기능의
+            수정 전후를 같은 조건에서 비교하겠습니다. 문제가 발생하면 증상과
+            재현 조건을 먼저 정리하고, 확인한 범위와 추가로 검토할 부분을 구분해
+            팀원에게 전달하겠습니다. 작은 기능부터 구현과 검증을 함께 수행하며
+            맡은 업무의 범위를 넓혀가겠습니다.
+          </p>
+          <p>
+            이후에는 C++과 Python의 기초를 보완하면서 ROS2 통신, 센서 데이터
+            처리와 자율주행 기능에 대한 이해를 확장하겠습니다. 새로운 기술은
+            간단한 예제와 시뮬레이션으로 동작을 확인한 뒤 업무에 필요한 부분과
+            연결해 학습하겠습니다. 장기적으로는 현장에서 발생하는 문제를 센서,
+            통신, 제어 로직으로 나누어 분석하고 개선할 수 있는 개발자가 되고
+            싶습니다. 제가 맡은 기능의 동작 원리와 검증 결과를 설명할 수 있는
+            역량을 쌓아 제품의 안정적인 운용에 기여하겠습니다.
+          </p>
+        </section>
+        <footer class="footer">
+          <span>© 2026 Kim Jeong Kwon · 배움과 구현의 기록</span
+          ><a href="../index.html">포트폴리오 홈 ↑</a>
+        </footer>
+      </main>
+    </div>
+  </body>
+</html>

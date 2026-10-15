@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="960" height="550" viewBox="0 0 960 550" role="img" aria-labelledby="title desc">
+<title id="title">스마트 주차장 제어 시스템 구성 일러스트</title><desc id="desc">3개 주차면, 입출구 차단기와 Arduino 제어부를 표현한 설명용 그림</desc>
+<defs><pattern id="grid" width="30" height="30" patternUnits="userSpaceOnUse"><path d="M30 0H0V30" fill="none" stroke="#dbe4dc" stroke-width=".7"/></pattern><filter id="shadow" x="-20%" y="-30%" width="150%" height="170%"><feDropShadow dx="0" dy="9" stdDeviation="12" flood-color="#405b45" flood-opacity=".09"/></filter></defs>
+<rect width="960" height="550" fill="#edf2ed"/><rect width="960" height="550" fill="url(#grid)"/>
+<text x="52" y="62" fill="#6d836c" font-family="Arial,sans-serif" font-size="12" letter-spacing="3">SMART PARKING SYSTEM</text><text x="52" y="91" fill="#99a994" font-family="Arial,sans-serif" font-size="11" letter-spacing="1">SENSING · CONTROL · INTEGRATION</text>
+<g transform="translate(140 140)" filter="url(#shadow)"><rect width="680" height="280" rx="17" fill="#f9fcf7" stroke="#c5d4bf"/>
+<path d="M24 202H656" stroke="#d6dfce" stroke-width="2" stroke-dasharray="12 9"/>
+<g font-family="Arial,sans-serif" font-size="16" text-anchor="middle"><rect x="35" y="30" width="165" height="138" rx="7" fill="#e4eddf" stroke="#a5bc98"/><text x="117" y="61" fill="#7e9870">P1</text><rect x="258" y="30" width="165" height="138" rx="7" fill="#e1edf1" stroke="#9dbcc6" stroke-width="2"/><text x="340" y="61" fill="#7d9dac">P2</text><rect x="480" y="30" width="165" height="138" rx="7" fill="#f1f4ec" stroke="#d2ddc9"/><text x="563" y="61" fill="#b4c0a8">P3</text></g>
+<g transform="translate(80 78)"><rect width="75" height="70" rx="14" fill="#90a783"/><rect x="9" y="13" width="57" height="26" rx="6" fill="#dae5d4"/><path d="M12 54H62" stroke="#c2d1b8" stroke-width="3"/><rect x="-5" y="16" width="7" height="14" rx="2" fill="#6a7f5e"/><rect x="73" y="16" width="7" height="14" rx="2" fill="#6a7f5e"/></g>
+<circle cx="340" cy="125" r="15" fill="none" stroke="#a7bec5"/><path d="M332 125H348M340 117V133" stroke="#a7bec5"/>
+<g transform="translate(-29 212)"><rect width="12" height="55" rx="3" fill="#879b7b"/><rect x="2" y="-2" width="90" height="9" rx="3" fill="#c3d1b9"/><path d="M16 3H85" stroke="#8a9f7c" stroke-width="3" stroke-dasharray="10 8"/></g>
+<g transform="translate(666 212)"><rect width="12" height="55" rx="3" fill="#879b7b"/><rect x="-80" y="-2" width="90" height="9" rx="3" fill="#c3d1b9"/><path d="M-75 3H-4" stroke="#8a9f7c" stroke-width="3" stroke-dasharray="10 8"/></g>
+<path d="M280 237H390M379 229L390 237 379 245" stroke="#c4d3bb" stroke-width="3" fill="none"/>
+</g><g transform="translate(399 446)"><rect width="162" height="55" rx="6" fill="#627c60"/><text x="81" y="24" fill="#eef4e9" font-family="Arial,sans-serif" text-anchor="middle" font-size="12" letter-spacing="2">ARDUINO UNO</text><text x="81" y="42" fill="#b8ceb0" font-family="Arial,sans-serif" text-anchor="middle" font-size="9" letter-spacing="1">INPUT → STATE → OUTPUT</text></g><path d="M480 420V446" stroke="#b8c9af" stroke-width="2" stroke-dasharray="5 4"/>
+<text x="52" y="515" fill="#a0af98" font-family="Arial,sans-serif" font-size="10">SYSTEM ILLUSTRATION</text><text x="905" y="515" text-anchor="end" fill="#a0af98" font-family="Arial,sans-serif" font-size="10">01 / PROJECT</text>
+</svg>
