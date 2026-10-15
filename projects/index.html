@@ -1,0 +1,136 @@
+<!doctype html>
+<html lang="ko">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width,initial-scale=1" />
+    <meta name="color-scheme" content="light" />
+    <meta name="theme-color" content="#f8f8f6" />
+    <meta
+      name="description"
+      content="김정권의 로봇 제어·임베디드 소프트웨어 개발 포트폴리오. Arduino 제어, 센서·배선, 스마트 주차장 통합 테스트 경험을 소개합니다."
+    />
+    <title>프로젝트 · 김정권</title>
+    <link rel="icon" href="../assets/favicon.svg" type="image/svg+xml" />
+    <link rel="stylesheet" href="../assets/site.css" />
+    <script src="../assets/site.js" defer></script>
+  </head>
+  <body>
+    <a class="skip" href="#main">본문으로 이동</a>
+    <aside class="sidebar" id="sidebar" aria-label="사이트 메뉴">
+      <a class="brand" href="../index.html"
+        ><span class="brand-mark">JK</span
+        ><span>김정권의 포트폴리오<small>ROBOTICS & EMBEDDED</small></span></a
+      >
+      <div class="nav-label">WORKSPACE</div>
+      <nav aria-label="페이지 목록">
+        <a class="nav-link" href="../index.html"
+          ><span class="nav-icon" aria-hidden="true">▦</span>포트폴리오</a
+        ><a class="nav-link" href="../resume/"
+          ><span class="nav-icon" aria-hidden="true">▤</span>이력서</a
+        ><a class="nav-link" href="../about/"
+          ><span class="nav-icon" aria-hidden="true">◉</span>자기소개서</a
+        >
+        <div class="nav-label">PROJECTS</div>
+        <a class="nav-link active" href="../projects/" aria-current="page"
+          ><span class="nav-icon" aria-hidden="true">▧</span>프로젝트
+          모아보기</a
+        ><a class="nav-link nav-child" href="../projects/smart-parking.html"
+          ><span class="nav-icon" aria-hidden="true">↳</span>스마트 주차장</a
+        >
+        <div class="nav-label">LINKS</div>
+        <a class="nav-link" href="https://github.com/obloodobladeo-spec"
+          ><span class="nav-icon" aria-hidden="true">↗</span>GitHub</a
+        ><a class="nav-link" href="https://kjeongk.tistory.com/"
+          ><span class="nav-icon" aria-hidden="true">↗</span>Tistory</a
+        >
+      </nav>
+      <div class="sidebar-bottom">
+        <span><i class="status-dot"></i>배우고, 만들고, 기록합니다.</span>로봇의
+        동작을 이해하는 개발자<br />Kim Jeong Kwon
+      </div>
+    </aside>
+    <div class="site-shell">
+      <header class="topbar">
+        <div class="breadcrumb">
+          <button
+            class="menu-toggle"
+            type="button"
+            aria-label="메뉴 열기"
+            aria-controls="sidebar"
+            aria-expanded="false"
+            data-menu-toggle
+          >
+            ☰</button
+          ><a href="../index.html">포트폴리오</a
+          ><span aria-hidden="true">/</span><b>프로젝트</b>
+        </div>
+        <div class="top-actions">
+          <a class="desktop-only" href="https://kjeongk.tistory.com/"
+            >개발 기록 ↗</a
+          ><a href="../resume/">이력서 보기 ↗</a>
+        </div>
+      </header>
+      <main id="main" class="page no-cover">
+        <div class="page-title">
+          <div class="eyebrow">PROJECTS</div>
+          <h1>프로젝트</h1>
+        </div>
+        <p class="lead">
+          직접 맡은 역할과 동작을 확인한 과정을 정리했습니다.<br />카드에서 각
+          프로젝트의 상세 기록으로 이동할 수 있습니다.
+        </p>
+        <section class="section">
+          <div class="section-heading">
+            <h2>개발 프로젝트</h2>
+            <span class="small muted">1 project</span>
+          </div>
+          <div class="project-grid">
+            <a class="project-card" href="../projects/smart-parking.html"
+              ><div class="project-cover">
+                <img
+                  src="../assets/parking-overview.svg"
+                  alt="3개 주차면과 Arduino 제어부를 표현한 스마트 주차장 구성 그림"
+                  width="960"
+                  height="550"
+                />
+              </div>
+              <div class="project-card-body">
+                <h3>
+                  스마트 주차장 <span class="arrow" aria-hidden="true">↗</span>
+                </h3>
+                <p>
+                  센서 입력과 주차 상태를 연결해<br />안내 LED와 입·출구
+                  차단기를 제어한 팀 프로젝트
+                </p>
+                <div class="tag-list">
+                  <span class="tag green">Arduino</span
+                  ><span class="tag blue">C/C++</span
+                  ><span class="tag orange">센서·Servo</span
+                  ><span class="tag purple">통합 테스트</span>
+                </div>
+                <div class="project-meta">
+                  <span>2026.08</span
+                  ><span>제어 · 센서·배선 · 통합 테스트</span>
+                </div>
+              </div></a
+            >
+          </div>
+        </section>
+        <div class="callout">
+          <span class="callout-icon" aria-hidden="true">🗂️</span>
+          <div>
+            <strong>프로젝트별로 읽을 수 있는 기록</strong>
+            <p>
+              개요 → 시스템 구조 → 내 역할 → 동작 흐름 → 문제 해결 → 회고 순서로
+              구성했습니다.
+            </p>
+          </div>
+        </div>
+        <footer class="footer">
+          <span>© 2026 Kim Jeong Kwon · 배움과 구현의 기록</span
+          ><a href="../index.html">포트폴리오 홈 ↑</a>
+        </footer>
+      </main>
+    </div>
+  </body>
+</html>

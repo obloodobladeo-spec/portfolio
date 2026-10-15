@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="960" height="520" viewBox="0 0 960 520" role="img" aria-labelledby="title desc">
+<title id="title">스마트 주차장 시스템 구조</title><desc id="desc">입출구 초음파 센서와 주차면 버튼이 Arduino로 연결되고 LED와 서보를 제어한다. Arduino는 ESP-01과 UART로, ESP-01은 C++ 테스트 서버와 Wi-Fi TCP로 연결된다.</desc>
+<defs><marker id="arrow" markerWidth="8" markerHeight="8" refX="6" refY="3" orient="auto-start-reverse"><path d="M0 0L6 3 0 6" fill="none" stroke="#a1af99" stroke-width="1.2"/></marker></defs>
+<rect width="960" height="520" fill="#fafbf8"/>
+<g font-family="Arial,'Malgun Gothic',sans-serif" text-anchor="middle">
+<text x="57" y="45" text-anchor="start" fill="#8d9b83" font-size="10" letter-spacing="2">SYSTEM ARCHITECTURE</text>
+<rect x="42" y="73" width="570" height="389" rx="12" fill="#f1f5ed" stroke="#d5dfce" stroke-dasharray="7 5"/><text x="66" y="102" text-anchor="start" font-size="12" fill="#789064">담당 영역 · Arduino 제어 / 센서·배선 / 통합 테스트</text>
+<g fill="#fff" stroke="#d2ddca"><rect x="70" y="134" width="200" height="66" rx="6"/><rect x="70" y="217" width="200" height="66" rx="6"/><rect x="70" y="300" width="200" height="66" rx="6"/></g>
+<g fill="#6d7f5d" font-size="13"><text x="170" y="161">입·출구 초음파 센서</text><text x="170" y="244">P1 · P2 · P3 버튼</text><text x="170" y="327">LED / Servo 차단기</text></g><g fill="#9ba78f" font-size="10"><text x="170" y="181">차량 접근 및 통과 감지</text><text x="170" y="264">IR 센서를 대신한 점유 입력</text><text x="170" y="347">주차면 안내 / 입·출구 개폐</text></g>
+<rect x="365" y="217" width="204" height="95" rx="8" fill="#6a835f"/><text x="467" y="249" fill="#f3f7ee" font-size="17">Arduino UNO</text><text x="467" y="271" fill="#cfddc4" font-size="10">입력 → 상태 판단 → 출력</text><text x="467" y="290" fill="#cfddc4" font-size="10">SoftwareSerial</text>
+<g fill="none" stroke="#a1af99" stroke-width="1.4" marker-end="url(#arrow)"><path d="M270 167H318V242H365"/><path d="M270 250H365"/><path d="M365 286H318V333H270"/></g>
+<rect x="684" y="217" width="224" height="95" rx="7" fill="#edf1f5" stroke="#cbd5e1"/><text x="796" y="250" fill="#73859b" font-size="17">ESP-01</text><text x="796" y="274" fill="#9aa7b5" font-size="11">AT 명령 · Wi-Fi 연결</text>
+<path d="M569 264H684" fill="none" stroke="#a1af99" stroke-width="1.4" marker-start="url(#arrow)" marker-end="url(#arrow)"/><text x="626" y="251" fill="#99a48f" font-size="9">UART</text>
+<rect x="684" y="366" width="224" height="95" rx="7" fill="#fff" stroke="#d3dccc"/><text x="796" y="398" fill="#758567" font-size="15">PC · C++ 테스트 서버</text><text x="796" y="422" fill="#9ba68f" font-size="10">콘솔 명령으로 배정 / 출차 승인</text><text x="796" y="441" fill="#9ba68f" font-size="10">별도 팀원 담당</text>
+<path d="M796 312V366" fill="none" stroke="#a1af99" stroke-width="1.4" marker-start="url(#arrow)" marker-end="url(#arrow)"/><text x="816" y="342" text-anchor="start" fill="#99a48f" font-size="9">Wi-Fi / TCP</text>
+<text x="66" y="430" text-anchor="start" fill="#99a48e" font-size="10">2026.08.19 개발 일지 기준 구성</text>
+</g></svg>
