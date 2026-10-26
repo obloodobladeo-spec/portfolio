@@ -2,7 +2,7 @@
 
 로봇 제어·임베디드 소프트웨어 개발 경험과 학습 기록을 정리한 웹 포트폴리오입니다.
 
-**[포트폴리오 보기](https://obloodobladeo-spec.github.io/portfolio/)** · [이력서](https://obloodobladeo-spec.github.io/portfolio/resume/) · [프로젝트](https://obloodobladeo-spec.github.io/portfolio/projects/) · [티스토리](https://kjeongk.tistory.com/)
+**[포트폴리오 보기](https://obloodobladeo-spec.github.io/portfolio/)** · [프로젝트](https://obloodobladeo-spec.github.io/portfolio/projects/) · [티스토리](https://kjeongk.tistory.com/)
 
 ![스마트 주차장 시스템 구성 일러스트](assets/parking-overview.svg)
 
@@ -28,17 +28,13 @@ index.html                  # 포트폴리오 메인
 projects/
   index.html                # 프로젝트 목록
   smart-parking.html        # 스마트 주차장 상세
-resume/
-  index.html                # 이력서 · 인쇄/PDF 저장
-about/
-  index.html                # 자기소개서
 assets/
   site.css                  # 공통 스타일 · 모바일 · 인쇄
   site.js                   # 메뉴와 프로젝트 동작 설명
   *.svg                     # 직접 작성한 구성 그림과 아이콘
 ```
 
-메인에는 프로젝트 소개 카드만 배치하고, 상세 기록은 `projects/` 폴더에 모았습니다. 이력서는 `resume/`에 별도로 구성했습니다.
+메인에는 프로젝트 소개 카드만 배치하고, 상세 기록은 `projects/` 폴더에 모았습니다.
 
 ## 로컬 확인
 
@@ -48,13 +44,12 @@ assets/
 python -m http.server 8000
 ```
 
-브라우저에서 `http://localhost:8000`을 엽니다. 이력서 페이지의 **인쇄 / PDF 저장** 버튼으로 인쇄 화면을 열 수 있습니다. PDF 저장은 브라우저의 인쇄 대상에서 선택합니다.
+브라우저에서 `http://localhost:8000`을 엽니다.
 
 ## 수정과 배포
 
 - 소개·학력·기술 요약은 `index.html`에서 수정합니다.
 - 프로젝트를 추가할 때는 `projects/` 안에 상세 페이지를 만들고 메인과 프로젝트 목록에 카드를 연결합니다.
-- 이력서와 자기소개서는 각각 `resume/index.html`, `about/index.html`에서 수정합니다.
 - GitHub Pages의 배포 소스는 `main` 브랜치의 루트(`/`)입니다.
 
 이 저장소에는 포트폴리오 웹페이지 코드가 들어 있습니다. 스마트 주차장의 Arduino 펌웨어와 C++ 서버 소스는 포함하지 않습니다.

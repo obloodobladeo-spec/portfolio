@@ -3,3 +3,9 @@ Thumbs.db
 node_modules/
 .cache/
 *.log
+
+# Keep private documents and local backups out of the public website.
+/resume/
+/about/
+/private-backups/
+*.bundle
